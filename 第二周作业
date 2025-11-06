@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>第二周作业</title>
+</head>
+<body>
+  <h1 style="color: rgb(169, 236, 236);" >第二周作业！！！！</h1> 
+
+  <script>
+    console.log("第三章第一题")
+const min=function(n,m){
+    let value=n+m;
+    return value-(n>m ?n:m);
+    
+};
+console.log(min(20,4));
+/*我是天才*/
+  </script>
+</body>
+</html>
