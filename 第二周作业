@@ -18,5 +18,17 @@ const min=function(n,m){
 console.log(min(20,4));
 /*我是天才*/
   </script>
+<script>
+    console.log("这是作业的第二题");
+    const isEven =function(x){
+      let remainder =x%2;
+      if(remainder===0){
+        return true
+      } else if(remainder!=0){
+      return false
+      }
+    }
+    console.log(isEven());
+/*依旧天才*/
 </body>
 </html>
