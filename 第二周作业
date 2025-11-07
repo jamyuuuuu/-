@@ -30,5 +30,38 @@ console.log(min(20,4));
     }
     console.log(isEven());
 /*依旧天才*/
+
+
+<script>
+console.log("这是第三章的第三题")
+console.log("这是第一小题")
+const  countBs=function(x){
+   let count=0
+for(let i=0;i<=x.length;i++){
+ 
+  if(x[i]==="B"){
+    count++
+  }
+  }
+  return count;
+}
+console.log(countBs("BBBBBBBBook"));
+
+console.log("这是第二小题");
+const countChar=function(x,y){
+  let count=0
+  for(let i=0;i<=x.length;i++){
+  if(x[i]===y){
+    count++
+  }
+}
+return count;
+}
+console.log(countChar("WWWWhy","W"))
+
+/*燃尽了*/
+  </script>
+
+
 </body>
 </html>
