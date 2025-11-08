@@ -16,7 +16,7 @@ const min=function(n,m){
     
 };
 console.log(min(20,4));
-/*我是天才*/
+
   </script>
 <script>
     console.log("这是作业的第二题");
@@ -29,7 +29,7 @@ console.log(min(20,4));
       }
     }
     console.log(isEven());
-/*依旧天才*/
+
 
 
 <script>
@@ -59,8 +59,84 @@ return count;
 }
 console.log(countChar("WWWWhy","W"))
 
-/*燃尽了*/
   </script>
+
+
+<script>
+      console.log("这是第四章作业");
+      const range = function (x, y) {
+        let count = 0;
+        for (let i = x; i <= y; i++) {
+          console.log( i);
+        }
+      };
+      console.log(range(2, 9));
+const sum=function(x,y){
+  let count=0
+  for (let i=x;i<=y;i++){
+    count+=i;
+  }
+  return count;
+};
+console.log(sum(3,6))   
+</script>
+
+ <script>
+      console.log("第四章第二题");
+
+      let myArray =["x","y","z"] 
+let arrayvalue=[1,2,3,4,5];
+const reverseArray=function(arr){
+  let reverseInplace=[];
+  for(let i=arr.length-1;i>=0 ;i--){
+reverseInplace.push(arr[i]); 
+  }
+  return reverseInplace
+};
+console.log(reverseArray(myArray));
+console.log(reverseArray(arrayvalue));
+</script>
+
+
+ <script>
+      console.log("第四章第三题")
+   /*  const arrayToList = function(arr) {
+  for (let i =0; i <= arr.length; i++) {
+  let list={
+    value:arr[i],
+    rest:{
+      value:arr[i+1]
+    }
+  } 
+   
+    }
+    return list ;
+  };
+
+
+console.log(arrayToList([10,30])); */
+
+    </script>
+    <script>
+      console.log("第四题")
+      let obj={ here:{is:"an"}, objiect:2 };
+      const deepequal=function(x,y){
+if(typeof(x)===typeof(y)){
+return true
+}
+if (typeof x !== 'object' || x === null || typeof y !== 'object' || y === null) {
+ return x === y;
+  }
+  if (Object(x).length !== Object.keys(y).length) {
+    return false;
+  }
+else if (typeof(X)!== typeof(y))
+return false
+      }
+      console.log(deepequal(obj,obj));
+      console.log(deepEqual(obj, { here  : 1 , object : 2 }));
+    </script>
+
 
 
 </body>
